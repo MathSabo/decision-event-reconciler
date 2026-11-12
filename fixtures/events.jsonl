@@ -1,0 +1,5 @@
+{"event_id":"evt-20261112-0001","proposal_id":"sim-5012","type":"decision.published","score":734,"status":"approved","received_at":"2026-11-12T07:38:00Z"}
+{"event_id":"evt-20261112-0002","proposal_id":"sim-5013","type":"decision.published","score":522,"status":"review","received_at":"2026-11-12T07:39:00Z"}
+{"event_id":"evt-20261112-0002","proposal_id":"sim-5013","type":"decision.published","score":522,"status":"review","received_at":"2026-11-12T07:39:00Z"}
+{"event_id":"evt-20261112-0003","proposal_id":"sim-5012","type":"decision.updated","score":751,"status":"approved","received_at":"2026-11-12T07:40:00Z"}
+{"event_id":"evt-20261112-0004","proposal_id":"sim-5014","type":"decision.reversed","score":null,"status":"cancelled","received_at":"2026-11-12T07:41:00Z"}

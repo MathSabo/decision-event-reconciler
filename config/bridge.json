@@ -1,0 +1,24 @@
+{
+  "integration": {
+    "service": "decision-event-reconciler",
+    "environment": "staging",
+    "producer": "external-risk-engine",
+    "consumer": "credit-workflow",
+    "delivery": "webhook"
+  },
+  "processing": {
+    "replay_window_hours": 24,
+    "max_batch_size": 50,
+    "retries": 3,
+    "deduplicate_by": "event_id"
+  },
+  "events": [
+    "decision.published",
+    "decision.updated",
+    "decision.reversed"
+  ],
+  "network": {
+    "enabled": false,
+    "example_callback": "https://callback.example.invalid/v1/partner/decisions"
+  }
+}
